@@ -1,0 +1,29 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Controle de Estoque Loja</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <h1>Controle de Estoque da Loja</h1>
+
+  <p>Estoque atual: <span id="estoque">10</span></p>
+  <p>Dia: <span id="dia"></span></p>
+
+  <button id="btnComprar">Comprar (+1)</button>
+  <button id="btnVender">Vender (-1)</button>
+  <button id="btnAvancarDia">Avançar Dia</button>
+
+  <h2>Testes</h2>
+  <button id="rodarTestesUnitBtn">Rodar Testes Unitários</button>
+  <button id="rodarTestesComponentBtn">Rodar Testes de Componente</button>
+
+  <div id="testes-resultados"></div>
+
+  <script src="src/pensamento.js"></script>
+  <script src="src/rodarTestes.js"></script>
+  <script src="tests/unitario.test.js"></script>
+  <script src="tests/component.test.js"></script>
+</body>
+
+</html>
